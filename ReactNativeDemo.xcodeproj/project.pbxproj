@@ -18,6 +18,7 @@
 
 /* Begin PBXFileReference section */
 		4246A04243AC80277D6539E2 /* libPods-ReactNativeDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ReactNativeDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FB30AC1219498580026A955 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		5FE0807B2194372400AA3CED /* ReactNativeDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReactNativeDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FE0807E2194372400AA3CED /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5FE0807F2194372400AA3CED /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -53,9 +54,18 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		5FB30AC0219498430026A955 /* Documents */ = {
+			isa = PBXGroup;
+			children = (
+				5FB30AC1219498580026A955 /* README.md */,
+			);
+			path = Documents;
+			sourceTree = "<group>";
+		};
 		5FE080722194372400AA3CED = {
 			isa = PBXGroup;
 			children = (
+				5FB30AC0219498430026A955 /* Documents */,
 				5FE0807D2194372400AA3CED /* ReactNativeDemo */,
 				5FE0807C2194372400AA3CED /* Products */,
 				2181157F4F7945481839DB90 /* Pods */,
