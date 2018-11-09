@@ -29,5 +29,3 @@
 在 ``Pods -> TARGETS -> RNGL -> Build Settings -> All -> Search Paths -> Header Search Paths`` 里
 添加 React 的路径：
 ``"${PODS_ROOT}/Headers/Public/React"``  non-recursive
-
-
