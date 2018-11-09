@@ -13,12 +13,12 @@
 		5FE080882194372700AA3CED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5FE080872194372700AA3CED /* Assets.xcassets */; };
 		5FE0808B2194372700AA3CED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FE080892194372700AA3CED /* LaunchScreen.storyboard */; };
 		5FE0808E2194372700AA3CED /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FE0808D2194372700AA3CED /* main.m */; };
+		5FE080E521950E0200AA3CED /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 5FE080E421950E0000AA3CED /* README.md */; };
 		B42DC53B4C00B9C961BD30AC /* libPods-ReactNativeDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4246A04243AC80277D6539E2 /* libPods-ReactNativeDemo.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4246A04243AC80277D6539E2 /* libPods-ReactNativeDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ReactNativeDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5FB30AC1219498580026A955 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		5FE0807B2194372400AA3CED /* ReactNativeDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReactNativeDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FE0807E2194372400AA3CED /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5FE0807F2194372400AA3CED /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -29,6 +29,7 @@
 		5FE0808A2194372700AA3CED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5FE0808C2194372700AA3CED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5FE0808D2194372700AA3CED /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5FE080E421950E0000AA3CED /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		BBB9081B20A7B6611011F448 /* Pods-ReactNativeDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNativeDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ReactNativeDemo/Pods-ReactNativeDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		D9CDABB893EC29FEE2C9F202 /* Pods-ReactNativeDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNativeDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-ReactNativeDemo/Pods-ReactNativeDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -54,18 +55,10 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		5FB30AC0219498430026A955 /* Documents */ = {
-			isa = PBXGroup;
-			children = (
-				5FB30AC1219498580026A955 /* README.md */,
-			);
-			path = Documents;
-			sourceTree = "<group>";
-		};
 		5FE080722194372400AA3CED = {
 			isa = PBXGroup;
 			children = (
-				5FB30AC0219498430026A955 /* Documents */,
+				5FE080E321950E0000AA3CED /* Documents */,
 				5FE0807D2194372400AA3CED /* ReactNativeDemo */,
 				5FE0807C2194372400AA3CED /* Products */,
 				2181157F4F7945481839DB90 /* Pods */,
@@ -95,6 +88,14 @@
 				5FE0808D2194372700AA3CED /* main.m */,
 			);
 			path = ReactNativeDemo;
+			sourceTree = "<group>";
+		};
+		5FE080E321950E0000AA3CED /* Documents */ = {
+			isa = PBXGroup;
+			children = (
+				5FE080E421950E0000AA3CED /* README.md */,
+			);
+			path = Documents;
 			sourceTree = "<group>";
 		};
 		B414DE84A3311E99234235A7 /* Frameworks */ = {
@@ -165,6 +166,7 @@
 			files = (
 				5FE0808B2194372700AA3CED /* LaunchScreen.storyboard in Resources */,
 				5FE080882194372700AA3CED /* Assets.xcassets in Resources */,
+				5FE080E521950E0200AA3CED /* README.md in Resources */,
 				5FE080862194372500AA3CED /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

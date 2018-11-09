@@ -25,7 +25,9 @@
 
 ##### RNGL 报 `'React/RCTConvert.h' file not found` 错误
 
-解决方法：在 RNGL target 里的 Build Settings -> Header Search Paths 里，添加 React 的路径：
+解决方法：
+在 ``Pods -> TARGETS -> RNGL -> Build Settings -> All -> Search Paths -> Header Search Paths`` 里
+添加 React 的路径：
 ``"${PODS_ROOT}/Headers/Public/React"``  non-recursive
 
 

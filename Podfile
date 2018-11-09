@@ -29,4 +29,14 @@ target 'ReactNativeDemo' do
   pod 'RNSVG', :path => '../node_modules/react-native-svg'
   pod 'RNGL', :path => '../node_modules/gl-react-native'
 
+  pod 'react-native-contacts', :path => '../node_modules/react-native-contacts'
+
+  pod 'react-native-image-picker', :path => '../node_modules/react-native-image-picker'
+
+  pod 'react-native-orientation', :path => '../node_modules/react-native-orientation'
+
+  pod 'react-native-sqlite-storage', :path => '../node_modules/react-native-sqlite-storage'
+
+  pod 'react-native-video', :path => '../node_modules/react-native-video'
+
 end
