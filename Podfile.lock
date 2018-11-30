@@ -6,6 +6,10 @@ PODS:
     - DoubleConversion
     - glog
   - glog (0.3.4)
+  - lottie-ios (2.5.2)
+  - lottie-react-native (2.5.5):
+    - lottie-ios
+    - React
   - React (0.54.4):
     - React/Core (= 0.54.4)
   - react-native-camera (1.0.2):
@@ -70,6 +74,7 @@ DEPENDENCIES:
   - DoubleConversion (from `../node_modules/react-native/third-party-podspecs/DoubleConversion.podspec`)
   - Folly (from `../node_modules/react-native/third-party-podspecs/Folly.podspec`)
   - glog (from `../node_modules/react-native/third-party-podspecs/glog.podspec`)
+  - lottie-react-native (from `../node_modules/lottie-react-native`)
   - react-native-camera (from `../node_modules/react-native-camera`)
   - react-native-contacts (from `../node_modules/react-native-contacts`)
   - react-native-image-picker (from `../node_modules/react-native-image-picker`)
@@ -91,6 +96,7 @@ DEPENDENCIES:
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - boost-for-react-native
+    - lottie-ios
 
 EXTERNAL SOURCES:
   DoubleConversion:
@@ -99,6 +105,8 @@ EXTERNAL SOURCES:
     :podspec: "../node_modules/react-native/third-party-podspecs/Folly.podspec"
   glog:
     :podspec: "../node_modules/react-native/third-party-podspecs/glog.podspec"
+  lottie-react-native:
+    :path: "../node_modules/lottie-react-native"
   React:
     :path: "../node_modules/react-native"
   react-native-camera:
@@ -125,6 +133,8 @@ SPEC CHECKSUMS:
   DoubleConversion: ebb6747c5b66026ad4f97b789c3ceac6f18e57a6
   Folly: 211775e49d8da0ca658aebc8eab89d642935755c
   glog: 1de0bb937dccdc981596d3b5825ebfb765017ded
+  lottie-ios: 3fef45d3fabe63e3c7c2eb603dd64ddfffc73062
+  lottie-react-native: db4bd75685428c4ad0ec2f913145abff3d38b640
   React: c237e42de9c70e5cac6eeb52b4cfd3a0910c1f00
   react-native-camera: ab22041dcf0403d88f2ae4b9ea3ed2644e680423
   react-native-contacts: c3c1a964be53e9184c1b6c17f8fc6c5178f6369d
@@ -136,6 +146,6 @@ SPEC CHECKSUMS:
   RNSVG: 6252323c0312735f0af5f58b5adf2965b6a9ffbf
   yoga: 55da126afc384965b96bff46652464373b330add
 
-PODFILE CHECKSUM: dec14cdb8309f17e83e30a38cfce9654159311bc
+PODFILE CHECKSUM: 479fab748861dcf9dc69f561d4088468fee9eddc
 
 COCOAPODS: 1.5.3
